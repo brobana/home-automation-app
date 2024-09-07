@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Home Automation
+
+logging:
+  level:
+    com:
+      bryanobana: INFO
+
+scheduling:
+  cron: "0 0 1 1 1 *"
+
+fan:
+  speed:
+    max: 3
+    min: 0
+
+airconditioner:
+  temperature:
+    max: 24
+    min: 18
